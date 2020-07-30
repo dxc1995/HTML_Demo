@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻页面</title>
+    <style>
+       body {
+           /* 字体大小/行高 字体*/
+           font: 16px/28px "Microsoft YaHei";
+       }
+
+       h1 {
+           /* 400代表normal,默认的粗细 700是代表bold加粗*/
+           font-weight: 400; 
+           text-align: center;
+       }
+
+       a {
+           text-decoration: none;
+       }
+
+       .gray {
+           color: #888888;
+           font-size: 12px;
+           text-align: center;
+       }
+
+       .search {
+           color: #666666;
+           width: 170px;
+       }
+
+       .btn {
+           font-weight: 700;
+       }
+
+       p {
+           text-indent: 2em;
+       }
+       
+       .pic {
+           /* 想要图片居中对齐,则是让它的父亲p标签添加水平居中的代码 text-align对内联标签是不起作用的 */
+           text-align: center;
+       }
+
+       .footer {
+           color: #888888;
+           font-size: 12px;
+       }
+    </style>
+</head>
+<body>
+    <h1>北京天气最新预报：“桑拿天”高湿闷热 今明两天又开启雷雨模式</h1>
+    <div class="gray">2020年7月30日 23:50:59 来源:<a href="#">北京晚报</a>
+    <input type="text" value="请输入查询条件" class="search">  <button class="btn">搜索</button>
+    </div>
+    <hr>
+    <p>今明两天，北京又开启雷雨模式，尤其明天，预计有全市性雷阵雨天气，出行须带好雨具。预计今天最高气温在34℃左右，闷热的感觉是有增无减，出现“桑拿”天气。未来三天本市气温较高，湿度大，体感闷热。</p>
+    <p class="pic"><img src="weater.jpeg" alt="天气"></p>
+
+    <h4>新华社资料图</h4>
+
+    <p>伏天又开始发威了。今明两天湿度较大，白天最高气温在31℃至34℃，典型的高湿闷热天气，要注意防暑降温。</p>
+
+    <p>明天，预计有全市性雷阵雨天气，还请提前做好出行安排，及时关注临近天气预报。建议尽量避免到山区游玩，谨防地质灾害。本周双休日以多云天气为主，还是有雷阵雨天气，最高气温在33℃至34℃。天气闷热，注意防暑降温。</p>
+
+    <p class="footer">来源：北京晚报 记者骆倩雯 通讯员付治龙</p>
+</body>
+</html>
