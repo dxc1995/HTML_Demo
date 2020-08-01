@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>简单小米侧边栏</title>
     <style>
+	    /*
+		  因为在实际开发中我们要精准位置所以不再使用text-indent这种方式,而是使用padding属性
+		*/
         a {
             display: block;
-            width: 234px;
+            width: 204px;
             height: 44px;
             background-color: #55585a;
             font-size: 14px;
             text-decoration: none;
             color: white;
-            text-indent: 2em;
+            /*text-indent: 2em;*/
+			padding-left: 30px;
             line-height: 44px;
         }
 
